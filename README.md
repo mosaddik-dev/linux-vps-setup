@@ -85,12 +85,12 @@ graph TD
 | 5 | SSH Hardening | ✅ Available |
 | 6 | The Firewall | ✅ Available |
 | 7 | Intrusion Prevention & Automatic Security Updates | ✅ Available |
-| 8 | System Identity: Hostname, Time & Locale | ⏳ Pending |
-| 9 | Web Servers & Reverse Proxies | ⏳ Pending |
-| 10 | Running Your Application as a Service | ⏳ Pending |
-| 11 | HTTPS & TLS Certificates | ⏳ Pending |
-| 12 | Databases & Data Persistence | ⏳ Pending |
-| 13 | Containers (optional path) | ⏳ Pending |
+| 8 | System Identity: Hostname, Time & Locale | ✅ Available |
+| 9 | Web Servers & Reverse Proxies | ✅ Available |
+| 10 | Running Your Application as a Service | ✅ Available |
+| 11 | HTTPS & TLS Certificates | ✅ Available |
+| 12 | Databases & Data Persistence | ✅ Available |
+| 13 | Containers (optional path) | ✅ Available |
 | 14 | Deployment Strategies & Lifecycle | ⏳ Pending |
 | 15 | CI/CD Pipelines | ⏳ Pending |
 | 16 | Backups & Disaster Recovery | ⏳ Pending |
@@ -114,7 +114,13 @@ ubuntu_server_setup/
     ├── 04-updates-and-package-management.md
     ├── 05-ssh-hardening.md
     ├── 06-firewall.md
-    └── 07-intrusion-prevention-auto-updates.md
+    ├── 07-intrusion-prevention-auto-updates.md
+    ├── 08-system-identity-hostname-time-locale.md
+    ├── 09-web-servers-and-reverse-proxies.md
+    ├── 10-running-your-application-as-a-service.md
+    ├── 11-https-and-tls-certificates.md
+    ├── 12-databases-and-data-persistence.md
+    └── 13-containers-optional-path.md
 ```
 
 Start with **[Chapter 1 →](chapters/01-connecting-via-ssh.md)**.

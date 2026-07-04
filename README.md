@@ -91,13 +91,13 @@ graph TD
 | 11 | HTTPS & TLS Certificates | ✅ Available |
 | 12 | Databases & Data Persistence | ✅ Available |
 | 13 | Containers (optional path) | ✅ Available |
-| 14 | Deployment Strategies & Lifecycle | ⏳ Pending |
-| 15 | CI/CD Pipelines | ⏳ Pending |
-| 16 | Backups & Disaster Recovery | ⏳ Pending |
-| 17 | Monitoring, Logging & Observability | ⏳ Pending |
-| 18 | Ongoing Maintenance & Runbooks | ⏳ Pending |
+| 14 | Deployment Strategies & Lifecycle | ✅ Available |
+| 15 | CI/CD Pipelines | ✅ Available |
+| 16 | Backups & Disaster Recovery | ✅ Available |
+| 17 | Monitoring, Logging & Observability | ✅ Available |
+| 18 | Ongoing Maintenance & Runbooks | ✅ Available |
 
-> The roadmap is a living plan. As you learn, we may add optional side-chapters (e.g., email deliverability, CDNs, secrets management). One chapter is delivered at a time; we continue only when you confirm you're ready.
+> ✅ **All 18 chapters are complete.** The core handbook is finished — from a bare VPS to a maintained production system. The roadmap remains a living plan: optional side-chapters (e.g., email deliverability, CDNs, secrets management like Vault, config management with Ansible, load balancing) can be added as you grow. Start at Chapter 1 and work straight through, or jump to whatever you need.
 
 ---
 
@@ -120,7 +120,12 @@ ubuntu_server_setup/
     ├── 10-running-your-application-as-a-service.md
     ├── 11-https-and-tls-certificates.md
     ├── 12-databases-and-data-persistence.md
-    └── 13-containers-optional-path.md
+    ├── 13-containers-optional-path.md
+    ├── 14-deployment-strategies-and-lifecycle.md
+    ├── 15-cicd-pipelines.md
+    ├── 16-backups-and-disaster-recovery.md
+    ├── 17-monitoring-logging-observability.md
+    └── 18-ongoing-maintenance-and-runbooks.md
 ```
 
 Start with **[Chapter 1 →](chapters/01-connecting-via-ssh.md)**.

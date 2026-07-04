@@ -80,11 +80,11 @@ graph TD
 |---|---|---|
 | 1 | First Contact: Connecting via SSH | ✅ Available |
 | 2 | The Shell & the Linux Filesystem | ✅ Available |
-| 3 | Users, Groups, Permissions & sudo | ⏳ Pending |
-| 4 | System Updates & Package Management | ⏳ Pending |
-| 5 | SSH Hardening | ⏳ Pending |
-| 6 | The Firewall | ⏳ Pending |
-| 7 | Intrusion Prevention & Automatic Security Updates | ⏳ Pending |
+| 3 | Users, Groups, Permissions & sudo | ✅ Available |
+| 4 | System Updates & Package Management | ✅ Available |
+| 5 | SSH Hardening | ✅ Available |
+| 6 | The Firewall | ✅ Available |
+| 7 | Intrusion Prevention & Automatic Security Updates | ✅ Available |
 | 8 | System Identity: Hostname, Time & Locale | ⏳ Pending |
 | 9 | Web Servers & Reverse Proxies | ⏳ Pending |
 | 10 | Running Your Application as a Service | ⏳ Pending |
@@ -108,7 +108,13 @@ ubuntu_server_setup/
 ├── README.md                 ← you are here (roadmap + how to use)
 ├── requrment.md              ← the original brief
 └── chapters/
-    └── 01-connecting-via-ssh.md
+    ├── 01-connecting-via-ssh.md
+    ├── 02-shell-and-filesystem.md
+    ├── 03-users-permissions-sudo.md
+    ├── 04-updates-and-package-management.md
+    ├── 05-ssh-hardening.md
+    ├── 06-firewall.md
+    └── 07-intrusion-prevention-auto-updates.md
 ```
 
 Start with **[Chapter 1 →](chapters/01-connecting-via-ssh.md)**.
